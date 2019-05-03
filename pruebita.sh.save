@@ -1,0 +1,5 @@
+#!/bin/sh
+#d=$(date +%Y-%m-%d)
+cd /home/estudiante/Documentos && git commit -m "commit 'date'" 
+d=$(date +%Y-%m-%d)
+echo "$d" git push -u origin master
